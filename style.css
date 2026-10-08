@@ -100,6 +100,22 @@ ul li span{
     border-radius: 50%;
 
 }
+.created-by {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 13px;
+    color: #777;
+}
+
+.created-by a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #153677;
+}
+
+.created-by a:hover {
+    text-decoration: underline;
+}
 ul li:hover{
     background:#edeef0;
 
