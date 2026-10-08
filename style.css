@@ -67,10 +67,15 @@ ul li{
      position: relative;
 }
 ul li::before{
-    content: "○";
+    content: "";
     position: absolute;
-    font-size: 28px;
-    top: 8px;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(unchecked.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
     left: 8px;
 }
 ul li.checked{
